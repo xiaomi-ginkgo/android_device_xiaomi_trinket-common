@@ -675,7 +675,7 @@
     <bool name="config_hasFingerprintSensor">true</bool>
 
     <!-- Flashlight on power button -->
-    <integer name="config_flashlightProximityTimeout">3000</integer>
+    <integer name="config_flashlightProximityTimeout">-1</integer>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
