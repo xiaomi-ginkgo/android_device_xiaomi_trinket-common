@@ -3,3 +3,4 @@ service perf-hal-2-0 /vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
     user root
     group root readproc oem_2907
     writepid /dev/cpuset/foreground/tasks
+    disabled

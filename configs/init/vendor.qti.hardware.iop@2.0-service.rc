@@ -13,3 +13,4 @@ service iop-hal-2-0 /vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
     user root
     group root readproc
     writepid /dev/cpuset/foreground/tasks
+    disabled
