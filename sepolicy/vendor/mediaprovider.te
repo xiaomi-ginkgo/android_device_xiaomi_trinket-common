@@ -1,1 +1,1 @@
-allow mediaprovider hal_perf_default:binder call;
+allow mediaprovider vendor_hal_perf_default:binder call;
