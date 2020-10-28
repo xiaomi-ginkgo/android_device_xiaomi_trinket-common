@@ -65,3 +65,6 @@ ro.oem_unlock_supported=1
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Others
+ro.potato.has_cutout=true
