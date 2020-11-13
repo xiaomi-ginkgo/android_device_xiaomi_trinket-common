@@ -325,18 +325,16 @@ vendor/lib64/libtinyxml2_1.so|0061bbae0a73101c9d5fc6a8d99c69674e265d6e
 vendor/lib/hw/vulkan.trinket.so|56cffb41b29e21432e81ef89b35a18124e1522b1
 vendor/lib64/hw/vulkan.trinket.so|b584c4d661bd415427fc02ad2f4139348cae07fe
 
-# IO Prefetcher - from LA.UM.8.11.r1-03800-NICOBAR.0
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|45fb094c463b095db35e1a16f0c7e3e084d529ae
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|9e0da70364cac83781076d720f6d5be34dcb598a
-vendor/lib/libqti-iopd-client.so|85c8b84858f16772c335fa26c2721e15ecbbde8b
-vendor/lib/libqti-iopd.so|c7e99b52254a09114b4abe4d61759544ff7c2a3a
-vendor/lib/vendor.qti.hardware.iop@1.0.so|42ed3e60adb821b5691d5fcd29375d6f9ccadbcc
-vendor/lib/vendor.qti.hardware.iop@2.0.so|41ef7cfb9381ad6850b737798908c44587ef8b9b
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|6b083dc9cfec463f63116cb608dcddcd85934394
-vendor/lib64/libqti-iopd-client.so|322e1a08d13c910fa004a9d58d5fa322c641aedd
-vendor/lib64/libqti-iopd.so|3538ebaec99947e1fc8a003a759a2b3083f1f55c
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|c4b08689e6778b3a2b50202cf7b187b031454bed
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|2f43628dd3fb7fb3195787bb5bf91c921843e04c
+# IO Prefetcher - from LA.UM.9.11.r1-02100-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|d7d6275ac24fe256d7659ae04d543c9fd3cb18b1
+vendor/lib/libqti-iopd-client.so|7ce1fb3256642e8ce2303e66f8224fe52c64c62c
+vendor/lib/libqti-iopd.so|b05391adec0d3659b390278ba674b3e17f70ff94
+vendor/lib/vendor.qti.hardware.iop@1.0.so|db03e5418694856f044130fa2d43e281ef2aca6d
+vendor/lib/vendor.qti.hardware.iop@2.0.so|6a580961bb5011e153e74854a28b89e9d12a6e14
+vendor/lib64/libqti-iopd-client.so|2628499e2d7d723bfea18edfc7bb8f5444c97f35
+vendor/lib64/libqti-iopd.so|fba5cc88d8ad40d94b14d474991306afe9fee206
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|7cf6226b395affc0a7c887d406209e37c9a30acb
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|b0fb916690a472a9c41ed8a9e4639820e7f83a29
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -430,37 +428,44 @@ vendor/lib/vendor.qti.power.pasrmanager@1.0.so
 vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
-# Perf - from LA.UM.8.11.r1-03800-NICOBAR.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|65c9f4bb045fbec927f0171b1ccb07e4a64126f8
-vendor/bin/msm_irqbalance|81225a8deacd411d80044c2faa424a162a18b4c0
+# Perf - from LA.UM.9.11.r1-02100-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|ba3f6c866fc1d0b4e5f98e1b72ea86adb886a402
+vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
 vendor/etc/lm/AdaptLaunchFeature.xml|ad4516342729e79a8914762c2737f7faa08b1e9d
 vendor/etc/lm/AppClassifierFeature.xml|69baba75bf7880a3bac99a9aefa2f97a047e9eea
 vendor/etc/lm/GameOptimizationFeature.xml|fd1e0dcf30bcc65d9705ba0caf1afe97680e83a7
 vendor/etc/lm/PreKillFeature.xml|b7895e1cea68e4ba13ebe147a1861658c68731ad
 vendor/etc/lm/prekill/prekill_4GB.data|d44007e12419b7e433ab26d3534d104fa4a88b72
 vendor/etc/lm/prekill/prekill_6GB.data|dbf72257628f2da4979726b046377673cb33d6e8
-vendor/lib/libperfconfig.so|2960da8e55a80c2cf5fdff8c3178e61da77aac16
-vendor/lib/libperfgluelayer.so|7250dd5f55b9240ca8c915df68f38b8b4b8275dd
-vendor/lib/libqti-perfd-client.so|93b4806dd64f7b9a832d2b1999f6fa6413c56a48
-vendor/lib/libqti-perfd.so|de0f47f63a82a812bde7b745962a6fd345b84bcc
-vendor/lib/libqti-util.so|b9610a3448b53d007965e1572a0d6c65414052ff
-vendor/lib/libqti-utils.so|e746bce39736f7febb4f1b8d7e3957aec50d3acd
-vendor/lib/vendor.qti.hardware.perf@2.0.so|d5a9678f2583b616f55d2eb9643b85cb13f8dd06
-vendor/lib64/libadaptlaunch.so|dc617d5a452dd53177886034decae681cb3d1737
-vendor/lib64/libappclassifier.so|26f465ca40bb9c707f56473f521d9de6d8d62f3f
-vendor/lib64/libgameoptfeature.so|430bc4fa57f29c53a93291ca86c85b50ed73a9bd
-vendor/lib64/liblearningmodule.so|503750294cbf3fa84e10fe87a73d5188acee9226
-vendor/lib64/liblmutils-ns.so|b0f6b2b4a666914e7af2babf0215caafa44d1703
-vendor/lib64/libmeters-ns.so|9fa25971725fc10d086a714895171721e9bf33fc
-vendor/lib64/libmeters.so|15b65f8c440897cf38895e7d7eb5add8ee179874
-vendor/lib64/libperfconfig.so|cb43161276ab430b1252e2a2f9f1e61350784147
-vendor/lib64/libperfgluelayer.so|8851e68feca29249a896357f27cf96ff5b6aafc1
-vendor/lib64/libprekill.so|18c7de5a79ca37a4951a0fef4210f61498111adb
-vendor/lib64/libqti-perfd-client.so|df6918c0e4d28df7fa5f03c2161d9c62e1119b2e
-vendor/lib64/libqti-perfd.so|a7fd8c413284bcb6090b2c2caf766f2c43540178
-vendor/lib64/libqti-util.so|f4b674e2f016f05425aa1d26ef852a57a5058ee7
-vendor/lib64/libqti-utils.so|4690c86e5380f4ae200cc5c035a25f3d5f39f308
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|19f22b29b3149b4d969562becc0356ba13c2bdd8
+vendor/lib/libperfconfig.so|8eeabfe7653df9e4b5972d46ee390f4b19e2a983
+vendor/lib/libperfgluelayer.so|5bf9a938ef7e720131c2eb9acb36ec27bc45c63e
+vendor/lib/libperfioctl.so|3b2d1bef61f7cbf0384aa6cc857a6bb17d5b4c5e
+vendor/lib/libqti-perfd-client.so|4fec2515f09cf18704e2501da071c7a28d4a61c7
+vendor/lib/libqti-perfd.so|c42bdb6482183a3d896027e99cee0ad001161107
+vendor/lib/libqti-util.so|0cd33bd4a4d61aa9aa35f622917f6af63c99b4f8
+vendor/lib/libqti-utils.so|5809afa83fb7798a6f7039ed83232bd8df8499c3
+vendor/lib/vendor.qti.hardware.perf@2.0.so|fc439fb036748d49b33ffe8ba91aea7f683a7671
+vendor/lib/vendor.qti.hardware.perf@2.1.so|c84885b63c7ee17c89a30fd0b8cd8e3788a0df50
+vendor/lib/vendor.qti.hardware.perf@2.2.so|6395d2d814bbd035d01528040db0b6a7b6b4573f
+vendor/lib64/libadaptlaunch.so|f63d64f33d118bc099bbd0415f987ad896a71e76
+vendor/lib64/libappclassifier.so|3b2993b72c86655f78a05315d5b31c21a6bd4194
+vendor/lib64/libgameoptfeature.so|c3a19ed4b8f088a97f1cd5cd0666770e59a70a70
+vendor/lib64/liblearningmodule.so|d379cb862db3983cb749e2be6decaaf14e8fd6cc
+vendor/lib64/liblmutils-ns.so|d4bd835c599b7b1060bfc219401b332264ef2a5c
+vendor/lib64/libmemperfd.so|934ef5ceeeba3e95c43803927dcf04cd94a58d64
+vendor/lib64/libmeters-ns.so|dd678805ec076cdc20dc2d871a03d19da200d6fe
+vendor/lib64/libmeters.so|90c9074d241730f92f37524181443faf54e601a0
+vendor/lib64/libperfconfig.so|36657cf67b67f14c3ef5bca13d8e76f2c38ee2d4
+vendor/lib64/libperfgluelayer.so|3639b6c16a96b7d9e9fe48912c4174160663161d
+vendor/lib64/libperfioctl.so|0eb3201abcbc1406d4941fd53742dc699d8a60dd
+vendor/lib64/libprekill.so|f164e534b7d8578715c8b4a616fddead8154c36a
+vendor/lib64/libqti-perfd-client.so|72b139339df99930abac2e8722c24259cfc0da80
+vendor/lib64/libqti-perfd.so|5327bded273ee1c76aabe4f66948ef901c514996
+vendor/lib64/libqti-util.so|3ba81263bc75a87d139dea388f6b4ce62c9c7ff5
+vendor/lib64/libqti-utils.so|423a983b8cc8415e3eeef635b11a7f309f570f51
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|1812e695c2179586e8742c0862109a8998ece2d8
+vendor/lib64/vendor.qti.hardware.perf@2.1.so|1512cd12e1f5b4542fa7cc9a07709c9668aa868b
+vendor/lib64/vendor.qti.hardware.perf@2.2.so|39cf96a42c6fd50773c333ed1ad5efbfa835f6ac
 
 # Peripheral manager
 vendor/bin/pm-proxy
@@ -683,11 +688,9 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
-# Servicetracker
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.1-service
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.1-impl.so
-vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
-vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
+# Servicetracker - from LA.UM.9.11.r1-02100-NICOBAR.0
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|7d2044589d88756d503408c9f5dce6e02ac9ae77
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|7ad23c607760b9931586b1144e9d105e5dd449db
 
 # Snapdragon Computer Vision Engine (SCVE)
 product/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
