@@ -1,4 +1,4 @@
-# Device proprietary files - from ginkgo MIUI V12.0.2.0.QCOCNXM package, unless pinned
+# Device proprietary files - from ginkgo MIUI 20.11.11 China Beta package, unless pinned
 
 # Alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
@@ -195,9 +195,9 @@ vendor/lib64/libcpion.so
 vendor/lib64/librmp.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
-# DRM - Widevine L1 - from laurel_sprout V11.0.15.0.QFQMIXM
-vendor/lib/liboemcrypto.so|822a8413aa5229e66b090113295f79d6839c004f
-vendor/lib64/liboemcrypto.so|14289b52bddd8d5ad100452c475cf4cbedca67cb
+# DRM - Widevine L1 - from MIUI V12.0.1.0.QCOMIXM
+vendor/lib/liboemcrypto.so|9256fb73abc3be24d565e42a167feebc53b899d2
+vendor/lib64/liboemcrypto.so|4bc107c69108c71b53d8a04c9f4d4e3f7ece18e7
 
 # ESE-Powermanager
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
