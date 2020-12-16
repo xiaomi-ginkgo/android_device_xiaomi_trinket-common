@@ -66,6 +66,9 @@ ro.sensor.pickup=xiaomi.sensor.pickup
 # OEM Unlock
 ro.oem_unlock_supported=1
 
+# Shutdown
+ro.build.shutdown_timeout=2
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
