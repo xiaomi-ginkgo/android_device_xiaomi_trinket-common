@@ -61,9 +61,6 @@ TARGET_USE_QTI_BT_STACK := true
 TARGET_NEEDS_RAW10_BUFFER_FIX := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
-# CNE
-BOARD_USES_QCNE := true
-
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
 ifneq ($(TARGET_BUILD_VARIANT),eng)
