@@ -66,9 +66,6 @@ ro.build.shutdown_timeout=2
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
-# Potato
-ro.potato.has_cutout=true
-
 # Blur
 ro.surface_flinger.supports_background_blur=1
 persist.sys.sf.disable_blurs=1
