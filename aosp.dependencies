@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "vendor_xiaomi_trinket-common",
+    "target_path": "vendor/xiaomi/trinket-common",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  }
+]
